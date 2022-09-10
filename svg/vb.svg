@@ -1,0 +1,23 @@
+<svg width="180" height="100" viewBox="0 0 180 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="vb">
+<g id="Logo">
+<g id="gradients">
+<path id="Alex2" d="M90.2818 9.19318L90.0548 24.2307L28.1694 49.7017L89.2577 77.0292L89.0306 92.0667L10.5373 55.2847L10.7139 43.5889L90.2818 9.19318Z" fill="url(#paint0_linear_12_38)"/>
+<path id="Alex1" d="M90.2818 9.19318L90.0548 24.2307L28.1694 49.7017L89.2577 77.0292L89.0306 92.0667L10.5373 55.2847L10.7139 43.5889L90.2818 9.19318Z" fill="url(#paint1_linear_12_38)"/>
+</g>
+<path id="big" d="M10.6841 91V75.9607L72.1779 49.5585L10.6841 23.1563V8.117L89.7237 43.7099V55.4071L10.6841 91Z" fill="#656565"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_12_38" x1="114.025" y1="167.544" x2="117.286" y2="-48.4316" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2A6A98"/>
+<stop offset="0.0001" stop-color="#00FF94"/>
+<stop offset="1" stop-color="#DB00FF" stop-opacity="0.81"/>
+</linearGradient>
+<linearGradient id="paint1_linear_12_38" x1="114.025" y1="167.544" x2="117.286" y2="-48.4316" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2A6A98"/>
+<stop offset="0.0001" stop-color="#00FF94"/>
+<stop offset="1" stop-color="#DB00FF" stop-opacity="0.81"/>
+</linearGradient>
+</defs>
+</svg>

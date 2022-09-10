@@ -1,0 +1,129 @@
+:root{
+    --main: #202020;
+    --secondary: #aaaaaa ;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 7vh 93vh 120vh 5vh;
+    background: url(/img/john-towner-JgOeRuGD_Y4-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    display: flex;
+    min-height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.navbar__links a{
+    position: relative;
+    text-decoration: none;
+    color: #ddd;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+    margin: 0 0.5rem;
+}
+
+.navbar__links a::after{
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+    content: '';
+    background-color: purple;
+    width: 0;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    transition: all 0.3s ease;
+}
+
+.navbar__links a:hover::after{
+    width: 100%;
+    }
+
+/* .navbar__links a:hover{
+    font-size: 2.5rem;
+} */
+
+.mainContent{
+    display: grid;
+    grid-template-rows: 93vh 60vh 60vh;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.landing__wrapper{
+    display: flex;
+    flex-wrap:wrap;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 5rem;
+    color: #FFF;
+}
+
+.landing__wrapper h1{
+    font-size: 10rem;
+}
+
+.landing__hero p{
+    font-size: 4rem;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+.section2{
+    background-color: green;
+}
+
+#salcido{
+    color: wheat;
+}
+
+footer{
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+
+#Alex1, #Alex2, #big{
+    transition: all 1s ease;
+}
+
+#Alex1{
+    transition-delay: 0.6s;
+    /* fill: #fff; */
+}
+
+#Alex2{
+    transform: translate(105%, -100%) rotate(90deg);
+    opacity: 0;
+}
+
+svg:hover #Alex1{
+    transition-delay: 0s;
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+svg:hover #Alex2{
+    transition-delay: 1s;
+    transform: translate(105%, 0) rotate(90deg);
+    opacity: 1;
+}
+
+
+svg:hover{
+    cursor: pointer;
+}
